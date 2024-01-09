@@ -50,3 +50,6 @@ func init() {
 	// is called directly, e.g.:
 	// cliCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }
+
+// go run main.go cli -a=create -n=ProductCLI -p=25.0
+// go run main.go cli -a=get --id=43cefdb7-5ed8-4819-af04-1c8a8596f22a
